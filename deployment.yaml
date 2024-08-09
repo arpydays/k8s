@@ -43,7 +43,7 @@ spec:
     metadata:
       labels:
         app: nginx
-        env: dev
+        env: stage
     spec:
       containers:
       - image: nginx:latest
